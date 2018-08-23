@@ -18,8 +18,9 @@ class BooksApp extends React.Component {
 
   onOptionChanged = (book, shelf) => {
     BooksAPI.update(book, shelf);
-    book.shelf = shelf;
-    this.setState(book);
+    BooksAPI.getAll().then(books => {
+      this.setState({ books });
+    });
   };
 
   render() {
