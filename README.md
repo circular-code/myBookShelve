@@ -1,6 +1,6 @@
-# MyBookShelve Project SPA
+# BookShelve SPA
 
-A Book Tracking React Application for the Udacity Front End Nanodegree program.
+A Book Tracking React Single Page Application
 
 ## Getting started
 
@@ -34,7 +34,7 @@ _Dependencies and server_
 
 ## License
 
-None.
+MIT
 
 ## Dependencies
 
@@ -45,7 +45,3 @@ Make sure to run `npm install` before launching the project.
 * [React Router](https://github.com/ReactTraining/react-router)
 * [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 * [Udacity Books API](https://reactnd-books-api.udacity.com)
-
-## Contributing
-
-This repository is a student project for udacity FEND. Contributions are not intended.
